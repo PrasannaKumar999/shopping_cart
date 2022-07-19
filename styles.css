@@ -1,7 +1,7 @@
 #header {
   height: 30vh;
   width: 80vw;
-  margin: 20px;
+  margin: 1vw 20px;
   display: block;
 }
 #image {
@@ -52,4 +52,49 @@
   margin: 3vw;
   width: 10vw;
   border-radius: 20px;
+}
+@media screen and (max-width: 1024px) {
+  #image {
+    height: 15vh;
+    width: 80vw;
+    margin: 2vw;
+    background-image: url("./images/nav_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #nav_bar {
+    height: 10vh;
+    width: 80vw;
+    background-color: blue;
+    margin: 0vw 1vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+  }
+  #options {
+    text-align: center;
+    background-color: rgba(70, 228, 136, 0.815);
+    border: 1px red solid;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.6em;
+  }
+  #section {
+    position: relative;
+    top: 0vh;
+    margin: 0vw 6vw;
+    width: 80vw;
+    background-image: url("./images/bgimage.jpg");
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }
